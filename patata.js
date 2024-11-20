@@ -1,1 +1,1 @@
-<script>alert("XSS")</script>
+<a href="javascript:alert('XSS')">Haz clic aquí</a>
