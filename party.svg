@@ -7,7 +7,7 @@
   <script>
     // Añade un evento al SVG
     <![CDATA[
-      document.addEventListener('DOMContentLoaded', function() {
+      document.addEventListener('click', function() {
         alert('XSS');
       });
     ]]>
